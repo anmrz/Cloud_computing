@@ -30,7 +30,7 @@ int main()
     for (i = 0; i < N; i++)
         c[i] = a[i] + b[i];
 
-    std::cout << "Cada uno de los arreglos contiene " << N << " elementos y se le asignan " << chunk << " elementos a cada uno de los hilos." <<std::endl;
+    std::cout << "Cada uno de los arreglos contiene " << N << " elementos y se le asignan " << chunk << "  elementos a cada uno de los hilos." <<std::endl;
 
     std::cout << "Imprimiendo los primeros " << mostrar << " valores del arreglo a: " << std::endl;
     imprimeArreglo(a);
